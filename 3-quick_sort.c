@@ -1,7 +1,5 @@
 #include "sort.h"
 
-void quick_sort_recursion(int array[], size_t lo, size_t hi, size_t size);
-size_t lomuto_pivot(int array[], size_t lo, size_t hi, size_t size);
 
 /**
  * quick_sort - Sorts an array of integers in ascending order
