@@ -63,7 +63,7 @@ size_t lomuto_pivot(int array[], size_t lo, size_t hi, size_t size)
 		if (array[j] < high)
 		{
 			i++;
-			if (i == j)
+			if (i == j || array[j] == array[i])
 				continue;
 			tmp = array[i];
 			array[i] = array[j];
@@ -72,7 +72,7 @@ size_t lomuto_pivot(int array[], size_t lo, size_t hi, size_t size)
 			print_array(array, size);
 		}
 	}
-	if (hi == i + 1)
+	if (hi == i + 1 || array[i + 1] == array[hi])
 		return (i + 1);
 	tmp = array[i + 1];
 	array[i + 1] = array[hi];
