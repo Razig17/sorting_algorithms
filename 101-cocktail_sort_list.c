@@ -43,11 +43,11 @@ void cocktail_sort_list(listint_t **list)
 }
 
 /**
- * swap - swaps two listint lists
+ * swap - swaps two listint nodes and prints the list
  *
  * @prev: The first list
  * @tmp: The second list
- *
+ * @list: The list to be printed
  * Return: Returnes 1 or 0 if it fails
  *
  */
