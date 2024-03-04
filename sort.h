@@ -26,5 +26,5 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void quick_sort_recursion(int array[], size_t lo, size_t hi, size_t size);
 size_t lomuto_pivot(int array[], size_t lo, size_t hi, size_t size);
-
+void shell_sort(int *array, size_t size);
 #endif /* SORT_H*/
