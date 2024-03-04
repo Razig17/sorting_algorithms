@@ -29,4 +29,5 @@ size_t lomuto_pivot(int array[], size_t lo, size_t hi, size_t size);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 int swap(listint_t *prev, listint_t *tmp, listint_t **list);
+void counting_sort(int *array, size_t size);
 #endif /* SORT_H*/
