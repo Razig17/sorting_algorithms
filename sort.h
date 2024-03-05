@@ -43,4 +43,7 @@ void heap_sort(int *array, size_t size);
 void swap_int(int *a, int *b);
 void heapify(int *array, size_t size);
 void sift_down(int arr[], int start, int end, size_t size);
+
+void radix_sort(int *array, size_t size);
+void bubble(int *array, size_t size, size_t exp);
 #endif /* SORT_H*/
