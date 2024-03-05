@@ -26,7 +26,7 @@ void merge_sort(int *array, size_t size)
 
 /**
  * split - Splits the array into right and left halves
- * 	   until there is only one element
+ *	   until there is only one element
  * @array: The array to be sorted
  * @copy: A copy array that will store the result
  * @first: The index of the first elemnt
@@ -91,6 +91,7 @@ void merge(int *array, int *copy, size_t first, size_t mid, size_t last)
 void copy_arr(int *dest, int *src, size_t size)
 {
 	size_t i;
+
 	for (i = 0; i < size; i++)
 		dest[i] = src[i];
 }
