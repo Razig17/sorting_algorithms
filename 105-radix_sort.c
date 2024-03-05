@@ -42,13 +42,13 @@ void bubble(int *array, size_t size, size_t exp)
  */
 void radix_sort(int *array, size_t size)
 {
-	int max = array[0];
+	int max = 0;
 	size_t i, exp;
 
 	if (array == NULL || size <= 1)
 		return;
 
-	for (i = 1; i < size; i++)
+	for (i = 0; i < size; i++)
 	{
 		if (array[i] > max)
 			max = array[i];
