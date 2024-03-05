@@ -38,4 +38,9 @@ void merge_sort(int *array, size_t size);
 void split(int *array, int *copy, size_t first, size_t last);
 void merge(int *array, int *copy, size_t first, size_t mid, size_t last);
 void copy_arr(int *dest, int *src, size_t size);
+
+void heap_sort(int *array, size_t size);
+void swap_int(int *a, int *b);
+void heapify(int *array, size_t size);
+void sift_down(int arr[], int start, int end, size_t size);
 #endif /* SORT_H*/
