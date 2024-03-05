@@ -6,7 +6,7 @@
  * using the Quick sort algorithm
  *
  * @array: The array to be sorted
- * @size: Number of elements in @array
+ * @size: Number of elements in array
  *
  */
 
@@ -21,7 +21,7 @@ void quick_sort(int *array, size_t size)
  * using the Quick sort algorithm recursively
  *
  * @array: The array to be sorted
- * @size: Number of elements in @array
+ * @size: Number of elements in array
  * @lo: first element index in the sup array
  * @hi: last element index in the sup array
  *
@@ -46,7 +46,7 @@ void quick_sort_recursion(int array[], size_t lo, size_t hi, size_t size)
  * lomuto_pivot - Performs the Lomuto partitioning for QuickSort
  *
  * @array: The array to be sorted
- * @size: Number of elements in @array
+ * @size: Number of elements in array
  * @lo: first element index in the suparray
  * @hi: last element index in the suparray
  *
