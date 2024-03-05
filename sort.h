@@ -23,11 +23,19 @@ void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
+
 void quick_sort(int *array, size_t size);
 void quick_sort_recursion(int array[], size_t lo, size_t hi, size_t size);
 size_t lomuto_pivot(int array[], size_t lo, size_t hi, size_t size);
+
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 int swap(listint_t *prev, listint_t *tmp, listint_t **list);
+
 void counting_sort(int *array, size_t size);
+
+void merge_sort(int *array, size_t size);
+void split(int *array, int *copy, size_t first, size_t last);
+void merge(int *array, int *copy, size_t first, size_t mid, size_t last);
+void copy_arr(int *dest, int *src, size_t size);
 #endif /* SORT_H*/
