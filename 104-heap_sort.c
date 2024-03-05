@@ -46,6 +46,7 @@ void heapify(int *array, size_t size)
  * @arr: The input array representing the binary heap.
  * @start: The index from where to start the sift-down operation.
  * @end: The end index of the heap.
+ * @size: The size of the array.
  */
 void sift_down(int *arr, int start, int end, size_t size)
 {
