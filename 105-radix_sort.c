@@ -37,7 +37,7 @@ void bubble(int *array, size_t size, size_t exp)
  * using the Radix sort algorithm
  *
  * @array: The array to be sorted
- * @size: Number of elements in @array
+ * @size: Number of elements in array
  *
  */
 void radix_sort(int *array, size_t size)
