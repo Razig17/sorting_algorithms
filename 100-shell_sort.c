@@ -5,7 +5,7 @@
  * using the Shell sort algorithm
  *
  * @array: The array to be sorted
- * @size: Number of elements in @array
+ * @size: Number of elements in array
  *
  */
 
