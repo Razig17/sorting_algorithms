@@ -15,7 +15,6 @@ void sort_deck(deck_node_t **deck)
 
 	if (deck == NULL || *deck == NULL)
 		return;
-	printf("hi");
 	tmp = *deck;
 
 	while (swaping == 1)
